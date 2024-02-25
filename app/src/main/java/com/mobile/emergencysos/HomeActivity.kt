@@ -192,8 +192,8 @@ class HomeActivity : AppCompatActivity() {
         val requestBody = RequestBody.create("application/json".toMediaTypeOrNull(), json.toString())
         val request = Request.Builder()
             .url("https://fcm.googleapis.com/fcm/send")
-            .addHeader("Authorization", "Bearer AAAASZeQF-4:APA91bG4DKeJKFUAyo9fSOywzXJgzIeo05XF2vONGOD-WdNSDXlNVvyXBQoShbESGojiJ7AwVtX5CcIYtSKHaVqIcBL19rhErbFI6k7CT1TW-axBiZYtf4IqqnJdCmXj-NF95-a0KBUs")
-            .post(requestBody)
+            .addHeader("Authorization", "Bearer YOUR_KEY")
+                       .post(requestBody)
             .build()
 
         val client = OkHttpClient()
