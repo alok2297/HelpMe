@@ -65,10 +65,10 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity3"
-            android:exported="false" /> <!-- AIzaSyAb1VSTz-qYt_9r6Iw5SnfRzUhGmIaytCw -->
+            android:exported="false" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAcZWc7XPSpbbJdwyFZ4QQ12pj40M55bak" />
+            android:value="MAP_API_KEY" />
 
         <activity
             android:name=".MainActivity2"
